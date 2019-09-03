@@ -1,0 +1,23 @@
+{
+	"browserSyncOptions": {
+		"server": {
+            "baseDir": "./"
+        },
+        "port": 8080,
+        "notify": false
+	},
+	"browserSyncWatchFiles": ["./src/assets/sass/**/*.scss", "./**/*.njk"],
+	"paths": {
+		"js": "./assets/js",
+		"css": "./assets/css",
+		"img": "./assets/img",
+		"imgsrc": "./src/img",
+		"sass": "./src/assets/sass",
+		"node": "./node_modules/",
+		"bower": "./bower_components/",
+		"dev": "./src",
+		"dist": "./dist",
+		"distprod": "./dist-product",
+		"vendor": ""
+	}
+}
