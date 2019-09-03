@@ -1,0 +1,18 @@
+{% macro card(title, text, link_text, link_url, img_url, img_alt) %}
+<div class="card">
+  {% if img_url %}
+  <img src="{{ img_url }}" class="card-img-top" alt="{{ img_alt }}">
+  {% endif %}
+  <div class="card-body">
+    {% if title %}
+    <h5 class="card-title">{{ title }}</h5>
+    {% endif %}
+    {% if text %}
+    <p class="card-text">{{ text }}</p>
+    {% endif %}
+    {% if link_url %}
+    <a href="{{ link_url }}" class="btn btn-primary">{{ link_text }}</a>
+    {% endif %}
+  </div>
+</div>
+{% endmacro %}

@@ -1,0 +1,17 @@
+{% extends 'layout.njk' %}
+
+{% import "macros/cards-example.njk" as cards %}
+
+{% set base_path = "../" %}
+{% set page_title = "Index | Bootstrap Patterns" %}
+{% set page_id = "Index" %}
+{% set page_description = "This is page one." %}
+
+
+{% block content %}
+
+  <h2>Välkommen!</h2>
+  <p>Det här är en starter iaf!</p>
+  {{ cards.card(title="Card title", text="Some quick example text to build on the card title and make up the bulk of the card's content.", link_url="#", link_text="Card link") }}
+
+{% endblock %}

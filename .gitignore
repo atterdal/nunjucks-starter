@@ -1,6 +1,5 @@
 /node_modules/*
 /dist/*
 /assets/*
-/src/*
 index.html
 index.js

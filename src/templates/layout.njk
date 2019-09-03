@@ -1,0 +1,20 @@
+{% include "partials/master-top.njk" %}
+
+  <header class="site-head">
+  {% block header %}
+    {% include "partials/header.njk" %}
+  {% endblock %}
+  </header>
+  
+  <main id="site-main" class="site-main">
+  {% block content %}{% endblock %}
+  </main>
+
+  <footer class="site-foot">
+  {% block footer %}
+    {% include "partials/footer.njk" %}
+  {% endblock %}
+  </footer>
+
+
+{% include "partials/master-bottom.njk" %}
