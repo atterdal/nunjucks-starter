@@ -37,7 +37,7 @@
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
     "gulp-watch": "^5.0.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "node-sass": "^4.12.0",
     "popper": "^1.0.1",
     "popper.js": "^1.15.0",
